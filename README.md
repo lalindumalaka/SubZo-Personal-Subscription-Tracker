@@ -1,5 +1,4 @@
 
-=======
 # SubZo – Personal Subscription Tracker
 
 **SubZo** is a full-stack web application designed to help users efficiently manage and track their recurring subscriptions — from streaming services to SaaS tools. It empowers users to gain control over their personal finances by monitoring subscription costs, getting timely renewal alerts, and identifying unused services.
