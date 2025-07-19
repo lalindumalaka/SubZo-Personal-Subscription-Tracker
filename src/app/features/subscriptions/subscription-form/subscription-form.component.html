@@ -1,0 +1,26 @@
+<form [formGroup]="subscriptionForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Cost</mat-label>
+    <input matInput formControlName="cost" type="number">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>First Payment Date</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="firstPaymentDate">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+
+  <mat-button-toggle-group formControlName="billingCycle">
+    <mat-button-toggle value="weekly">Weekly</mat-button-toggle>
+    <mat-button-toggle value="monthly">Monthly</mat-button-toggle>
+    <mat-button-toggle value="yearly">Yearly</mat-button-toggle>
+  </mat-button-toggle-group>
+
+  <button mat-flat-button color="primary" type="submit">Save</button>
+</form>

@@ -1,0 +1,13 @@
+<div class="subscription-list">
+  <div class="subscription-card" *ngFor="let subscription of subscriptions">
+    <img [src]="subscription.logo" alt="Service Logo">
+    <div class="subscription-details">
+      <h4>{{ subscription.name }}</h4>
+      <p>{{ subscription.category }}</p>
+    </div>
+    <div class="subscription-cost">
+      <p>{{ subscription.cost }}</p>
+      <p>{{ subscription.dueDate }}</p>
+    </div>
+  </div>
+</div>
