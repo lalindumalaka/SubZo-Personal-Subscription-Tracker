@@ -1,3 +1,4 @@
+//SubTrack.Backend/SubTrack.Api/Controllers/SubscriptionsController.cs
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SubTrack.Application.DTOs;
