@@ -29,19 +29,9 @@
 | Frontend     | Angular, TypeScript, HTML, CSS |
 | Backend      | ASP.NET Core, C#         |
 | Authentication | ASP.NET Core Identity  |
-| Database     | SQL Server / PostgreSQL  |
+| Database     | Mongo DB ATLAS  |
 | Charts       | Chart.js / ngx-charts    |
-| Notifications| SendGrid / SMTP / Push API |
-| Deployment   | Docker / Azure / Render *(optional)* |
-
+| Notifications| Push API |
+| Deployment   | Docker  |
 ---
 
-## 📸 Screenshots
-<!-- Add screenshots of your app once implemented -->
-Coming soon...
-
----
-
-## 📁 Project Structure (Simplified)
-
->>>>>>> 36fc18b0b2dad85f029d6d509100dfb81797ad26
